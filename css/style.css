@@ -24,3 +24,64 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+
+
+/* Grid pojemnik z logo i menu*/
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Page Header */
+.page-header {
+    padding: 0 10px;
+}
+
+
+.page-header > .container { /* bezpośrednie dziecko/ element, który jest w page-header i ma klasę container, wszystko co jest w środku wyświetlamy flexem */
+    display: flex;
+    justify-content: space-between; /* wyrównanie w poziomie */
+    align-items: center; 
+}
+
+
+.brand, .brand img { /* wycentrowanie logotypu w pionie */
+    display: block;
+}
+
+
+/* Menu */
+.menu-elements {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu-elements li {
+    margin: 0 4px; /* odstęp między elementami menu */
+    display: inline-block; /* każdy element li wyświetlamy w linii */
+}
+
+
+.menu-elements li a {
+    padding: 10px 18px;
+    display: inline-block; /* aby paddingi zostały poprawnie zinterpretowane */
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.1em;
+    font-weight: 300;
+}
+
+
+.menu-elements .active {
+    border-radius: 30px;
+    border: 1px solid #a70083;
+}
+
+
+.menu-elements .active:hover {
+    color: #a70083;   
+}
