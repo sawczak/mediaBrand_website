@@ -1,0 +1,26 @@
+body {
+    font: 300 18px / 1.6em "Muli", Arial, sans-serif;
+    color: #949494;
+    /* font-family: "Muli";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px; */
+}
+
+
+/* Links */
+a {
+    color: #949494;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+
+/* Images automatyczne dopasowanie obrazka do szerokości ekranu */
+img {
+    max-width: 100%;
+    height: auto;
+}
