@@ -25,7 +25,21 @@ img {
     height: auto;
 }
 
+/* Buttons */
+.btn  {
+    padding: 14px 55px;
+    color: #a70083;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 2.6em;     /* to ok 48px */
+}
 
+.btn-follow {
+    background-image: radial-gradient(circle at 10px, #49007c, #a70083);
+    color: #fff;
+    border-radius: 40px;
+}
 
 /* Grid pojemnik z logo i menu*/
 .container {
@@ -37,7 +51,9 @@ img {
 
 /* Page Header */
 .page-header {
-    padding: 0 10px;
+    padding: 25px 0;
+    /* border-bottom: 1px solid #a70083; */
+    /* background-color: url(); */
 }
 
 
@@ -84,4 +100,40 @@ img {
 
 .menu-elements .active:hover {
     color: #a70083;   
+}
+
+.fa-facebook-f {
+    color: #949494;
+    margin: 0;
+}
+
+
+/* Page section */
+
+/* Section header */
+.section-header {
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.section-header h2 {
+    color: #000000;
+    font-size: 34px;
+    /* line-height: 1.2em; */
+    font-weight: 700;
+    margin: 0;
+}
+
+.section-header p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+/* Intro btn */
+.intro-btn {
+    text-align: center;
+    margin-top: 70px;
 }
