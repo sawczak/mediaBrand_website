@@ -25,20 +25,21 @@ img {
     height: auto;
 }
 
+
 /* Buttons */
 .btn  {
+    /* display: inline-block; */
     padding: 14px 55px;
-    color: #a70083;
-    background-color: #fff;
+    background-image: radial-gradient(circle at 10px, #49007c, #a70083);
+    color: #fff;
     font-weight: 500;
     font-size: 22px;
-    line-height: 2.6em;     /* to ok 48px */
+    line-height: 1.2em;     /* to ok 48px */
+    border-radius: 40px;
 }
 
 .btn-follow {
-    background-image: radial-gradient(circle at 10px, #49007c, #a70083);
-    color: #fff;
-    border-radius: 40px;
+
 }
 
 /* Grid pojemnik z logo i menu*/
@@ -150,3 +151,19 @@ img {
     background: none;
 }
 
+/* Intro scroll */
+.intro-scroll {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.mouse-scroll {
+    width: 50px;
+}
+
+.intro-scroll p {
+    color: #fff;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
