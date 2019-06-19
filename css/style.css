@@ -1,4 +1,4 @@
-body {
+html {
     font: 300 18px / 1.6em "Muli", Arial, sans-serif;
     color: #949494;
     /* font-family: "Muli";
@@ -27,7 +27,7 @@ img {
 
 
 /* Buttons */
-.btn  {
+.btn {
     /* display: inline-block; */
     padding: 14px 55px;
     background-image: radial-gradient(circle at 10px, #49007c, #a70083);
@@ -172,7 +172,29 @@ img {
 
 
 /* Section code design */
-.code-design, .container {
-    height: 300px;
-    /* background-image: url(../img/code-design.jpg); */
+.code-design {
+    background-image: url(../img/code-design.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+}
+
+.container-design {
+    color: white;
+    display: flex;
+    margin: 50px 100px 100px 50px;
+    justify-content: space-between;
+}
+
+.container-design span {
+    font-weight: 10;
+}
+
+.container-design p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
 }
