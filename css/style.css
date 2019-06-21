@@ -171,7 +171,7 @@ img {
 .code-design {
     background-image: url(../img/code-design.jpg);
     background-repeat: no-repeat;
-    position: absolute;
+    position: relative;
     background-size: cover;
     background-position: center;
     height: 350px;
@@ -210,4 +210,25 @@ img {
 /* Design btn */
 .btn-ask {
     font-size: 14px;
+}
+
+
+/* Section What We Do */
+.section-what-we-do {
+    height: 550px;
+    width: 100%;
+    position: absolute;
+}
+
+.header-WWD {
+
+}
+
+.container-WWD {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
