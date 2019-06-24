@@ -232,3 +232,18 @@ img {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+
+/* section WWD h3 */
+.header-WWD h3 {
+    color: #000000;
+    font-size: 34px;
+    /* line-height: 1.2em; */
+    font-weight: 700;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.WWD-box {
+    padding: 0;
+}
