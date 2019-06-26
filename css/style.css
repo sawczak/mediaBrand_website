@@ -280,8 +280,9 @@ img {
 
 
 /* WWD btn */
-.btn-ask-WWD {
-    font-size: 14px;
-    
-    justify-content: center;
+.WWD-btn {
+    text-align: center;
+    margin: 50px auto;
+    background: none;
 }
+
