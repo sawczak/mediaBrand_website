@@ -224,16 +224,6 @@ img {
 
 }
 
-.container-WWD {
-    max-width: 1170px;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-
 /* section WWD h3 */
 .header-WWD h3 {
     color: #000000;
@@ -258,21 +248,34 @@ img {
 
 
 /* container WWD */
-.container-WWD {
+.section-what-we-do {
     height: 350px;
     max-width: 1170px;
     width: 100%;
-    /* font-size: 24px; */
+    position: relative;
+}
+
+.container-WWD {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-content: center;
-    margin: 0 auto;
 }
+
+.WWD-BOX {
+    flex-basis: 25%;
+}
+
+
 
 
 .WWD-box p {
     font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 20px;
     padding: 0;
     margin: 0;
     flex-basis: 40%;
@@ -286,3 +289,6 @@ img {
     background: none;
 }
 
+.WWD-box img {
+
+}
