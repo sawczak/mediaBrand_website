@@ -191,7 +191,7 @@ img {
     margin: 0 auto;
 }
 
-.feature-box-left, .feature-box-right {
+.feature-box {
     flex-basis: 40%;
 }
 
@@ -220,9 +220,6 @@ img {
     position: absolute;
 }
 
-.header-WWD {
-
-}
 
 /* section WWD h3 */
 .header-WWD h3 {
@@ -230,12 +227,8 @@ img {
     font-size: 34px;
     /* line-height: 1.2em; */
     font-weight: 700;
-    margin: 80px auto 0px;
+    margin: 80px auto 60px;
     text-align: center;
-}
-
-.WWD-box {
-    padding: 0;
 }
 
 
@@ -250,26 +243,28 @@ img {
 /* container WWD */
 .section-what-we-do {
     height: 350px;
-    max-width: 1170px;
-    width: 100%;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
     position: relative;
 }
 
 .container-WWD {
     max-width: 1170px;
     width: 100%;
-    margin: 0 auto;
+    /* height: 450px; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-content: center;
+    margin: 0px auto;
 }
 
-.WWD-BOX {
-    flex-basis: 25%;
+.WWD-box {
+    flex-basis: 50%;
+    display: flex;
+    padding-bottom: 80px;
 }
-
-
 
 
 .WWD-box p {
@@ -278,17 +273,24 @@ img {
     padding-bottom: 20px;
     padding: 0;
     margin: 0;
-    flex-basis: 40%;
+    width: 320px;
 }
+
+.WWD-box img {
+    margin-right: 35px;
+    max-width: 160px;
+    width: 100%;
+    height: 100%;
+}
+
 
 
 /* WWD btn */
 .WWD-btn {
     text-align: center;
-    margin: 50px auto;
+    margin: 0px auto 50px auto;
     background: none;
 }
 
-.WWD-box img {
 
-}
+
