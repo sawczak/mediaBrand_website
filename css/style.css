@@ -318,7 +318,6 @@ img {
 .portfolio-box {
     flex-basis: 33.3%;
     display: flex;
-    margin: 0;
 }
 
 
