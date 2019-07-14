@@ -247,6 +247,7 @@ img {
     background-size: cover;
     background-position: center;
     position: relative;
+    padding-bottom: 300px;
 }
 
 .container-WWD {
@@ -298,15 +299,32 @@ img {
 
 /* Section Portfolio */
 .portfolio {
+    height: 200px;
     position: relative;
-    height: 400px;
-    width: 100%;
 }
 
-.portfolio-box {
+
+.container-portfolio {
+    width: 100%;
     display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: start;
-    /* align-content: center; */
-    margin: 0 auto;
+    align-content: center;
+    margin: 0px auto;
 }
+
+
+.portfolio-box {
+    flex-basis: 33.3%;
+    display: flex;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
